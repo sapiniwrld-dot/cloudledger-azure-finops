@@ -1,0 +1,9 @@
+usage_date,resource_group,service_name,region,cost,currency
+2026-08-01,rg-app-dev,Container Apps,eastus2,4.82,USD
+2026-08-02,rg-data-dev,Storage,eastus2,1.35,USD
+2026-08-03,rg-data-dev,Azure SQL,eastus2,12.40,USD
+2026-08-04,rg-app-dev,Application Insights,eastus2,2.18,USD
+2026-08-05,rg-data-dev,Storage,eastus2,1.62,USD
+2026-08-06,rg-app-dev,Container Apps,eastus2,5.11,USD
+2026-08-07,rg-shared-dev,Key Vault,eastus2,0.74,USD
+2026-08-08,rg-data-dev,Azure SQL,eastus2,12.63,USD
