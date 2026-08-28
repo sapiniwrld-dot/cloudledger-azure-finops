@@ -1,0 +1,361 @@
+usage_date,resource_group,service_name,region,cost,currency
+2026-05-31,rg-data-dev,Azure SQL,eastus2,3.07,USD
+2026-05-31,rg-app-dev,Container Apps,eastus2,1.44,USD
+2026-05-31,rg-data-dev,Storage,eastus2,0.46,USD
+2026-05-31,rg-app-dev,Application Insights,eastus2,0.56,USD
+2026-06-01,rg-data-dev,Azure SQL,eastus2,4.31,USD
+2026-06-01,rg-app-dev,Container Apps,eastus2,2.14,USD
+2026-06-01,rg-data-dev,Storage,eastus2,0.68,USD
+2026-06-01,rg-app-dev,Application Insights,eastus2,0.77,USD
+2026-06-02,rg-data-dev,Azure SQL,eastus2,4.18,USD
+2026-06-02,rg-app-dev,Container Apps,eastus2,2.01,USD
+2026-06-02,rg-data-dev,Storage,eastus2,0.63,USD
+2026-06-02,rg-app-dev,Application Insights,eastus2,0.80,USD
+2026-06-03,rg-data-dev,Azure SQL,eastus2,4.02,USD
+2026-06-03,rg-app-dev,Container Apps,eastus2,2.05,USD
+2026-06-03,rg-data-dev,Storage,eastus2,0.66,USD
+2026-06-03,rg-app-dev,Application Insights,eastus2,0.81,USD
+2026-06-04,rg-data-dev,Azure SQL,eastus2,4.11,USD
+2026-06-04,rg-app-dev,Container Apps,eastus2,2.13,USD
+2026-06-04,rg-data-dev,Storage,eastus2,0.67,USD
+2026-06-04,rg-app-dev,Application Insights,eastus2,0.77,USD
+2026-06-05,rg-data-dev,Azure SQL,eastus2,4.36,USD
+2026-06-05,rg-app-dev,Container Apps,eastus2,2.16,USD
+2026-06-05,rg-data-dev,Storage,eastus2,0.64,USD
+2026-06-05,rg-app-dev,Application Insights,eastus2,0.78,USD
+2026-06-06,rg-data-dev,Azure SQL,eastus2,3.19,USD
+2026-06-06,rg-app-dev,Container Apps,eastus2,1.50,USD
+2026-06-06,rg-data-dev,Storage,eastus2,0.45,USD
+2026-06-06,rg-app-dev,Application Insights,eastus2,0.56,USD
+2026-06-07,rg-data-dev,Azure SQL,eastus2,3.16,USD
+2026-06-07,rg-app-dev,Container Apps,eastus2,1.54,USD
+2026-06-07,rg-data-dev,Storage,eastus2,0.49,USD
+2026-06-07,rg-app-dev,Application Insights,eastus2,0.60,USD
+2026-06-08,rg-data-dev,Azure SQL,eastus2,4.27,USD
+2026-06-08,rg-app-dev,Container Apps,eastus2,2.23,USD
+2026-06-08,rg-data-dev,Storage,eastus2,0.65,USD
+2026-06-08,rg-app-dev,Application Insights,eastus2,0.81,USD
+2026-06-09,rg-data-dev,Azure SQL,eastus2,4.40,USD
+2026-06-09,rg-app-dev,Container Apps,eastus2,2.15,USD
+2026-06-09,rg-data-dev,Storage,eastus2,0.68,USD
+2026-06-09,rg-app-dev,Application Insights,eastus2,0.82,USD
+2026-06-10,rg-data-dev,Azure SQL,eastus2,4.35,USD
+2026-06-10,rg-app-dev,Container Apps,eastus2,2.03,USD
+2026-06-10,rg-data-dev,Storage,eastus2,0.64,USD
+2026-06-10,rg-app-dev,Application Insights,eastus2,0.79,USD
+2026-06-11,rg-data-dev,Azure SQL,eastus2,4.09,USD
+2026-06-11,rg-app-dev,Container Apps,eastus2,2.08,USD
+2026-06-11,rg-data-dev,Storage,eastus2,0.63,USD
+2026-06-11,rg-app-dev,Application Insights,eastus2,0.80,USD
+2026-06-12,rg-data-dev,Azure SQL,eastus2,4.33,USD
+2026-06-12,rg-app-dev,Container Apps,eastus2,2.11,USD
+2026-06-12,rg-data-dev,Storage,eastus2,0.65,USD
+2026-06-12,rg-app-dev,Application Insights,eastus2,0.79,USD
+2026-06-13,rg-data-dev,Azure SQL,eastus2,3.01,USD
+2026-06-13,rg-app-dev,Container Apps,eastus2,1.61,USD
+2026-06-13,rg-data-dev,Storage,eastus2,0.48,USD
+2026-06-13,rg-app-dev,Application Insights,eastus2,0.59,USD
+2026-06-14,rg-data-dev,Azure SQL,eastus2,2.99,USD
+2026-06-14,rg-app-dev,Container Apps,eastus2,1.58,USD
+2026-06-14,rg-data-dev,Storage,eastus2,0.46,USD
+2026-06-14,rg-app-dev,Application Insights,eastus2,0.58,USD
+2026-06-15,rg-data-dev,Azure SQL,eastus2,4.50,USD
+2026-06-15,rg-app-dev,Container Apps,eastus2,2.18,USD
+2026-06-15,rg-data-dev,Storage,eastus2,0.67,USD
+2026-06-15,rg-app-dev,Application Insights,eastus2,0.83,USD
+2026-06-16,rg-data-dev,Azure SQL,eastus2,4.45,USD
+2026-06-16,rg-app-dev,Container Apps,eastus2,2.21,USD
+2026-06-16,rg-data-dev,Storage,eastus2,0.65,USD
+2026-06-16,rg-app-dev,Application Insights,eastus2,0.78,USD
+2026-06-17,rg-data-dev,Azure SQL,eastus2,4.23,USD
+2026-06-17,rg-app-dev,Container Apps,eastus2,2.10,USD
+2026-06-17,rg-data-dev,Storage,eastus2,0.65,USD
+2026-06-17,rg-app-dev,Application Insights,eastus2,0.86,USD
+2026-06-18,rg-data-dev,Azure SQL,eastus2,4.48,USD
+2026-06-18,rg-app-dev,Container Apps,eastus2,2.12,USD
+2026-06-18,rg-data-dev,Storage,eastus2,0.68,USD
+2026-06-18,rg-app-dev,Application Insights,eastus2,0.81,USD
+2026-06-19,rg-data-dev,Azure SQL,eastus2,4.50,USD
+2026-06-19,rg-app-dev,Container Apps,eastus2,2.15,USD
+2026-06-19,rg-data-dev,Storage,eastus2,0.65,USD
+2026-06-19,rg-app-dev,Application Insights,eastus2,0.80,USD
+2026-06-20,rg-data-dev,Azure SQL,eastus2,3.13,USD
+2026-06-20,rg-app-dev,Container Apps,eastus2,1.52,USD
+2026-06-20,rg-data-dev,Storage,eastus2,0.49,USD
+2026-06-20,rg-app-dev,Application Insights,eastus2,0.62,USD
+2026-06-21,rg-data-dev,Azure SQL,eastus2,3.09,USD
+2026-06-21,rg-app-dev,Container Apps,eastus2,1.52,USD
+2026-06-21,rg-data-dev,Storage,eastus2,0.51,USD
+2026-06-21,rg-app-dev,Application Insights,eastus2,0.59,USD
+2026-06-22,rg-data-dev,Azure SQL,eastus2,4.16,USD
+2026-06-22,rg-app-dev,Container Apps,eastus2,2.07,USD
+2026-06-22,rg-data-dev,Storage,eastus2,0.65,USD
+2026-06-22,rg-app-dev,Application Insights,eastus2,0.84,USD
+2026-06-23,rg-data-dev,Azure SQL,eastus2,4.47,USD
+2026-06-23,rg-app-dev,Container Apps,eastus2,2.16,USD
+2026-06-23,rg-data-dev,Storage,eastus2,0.64,USD
+2026-06-23,rg-app-dev,Application Insights,eastus2,0.82,USD
+2026-06-24,rg-data-dev,Azure SQL,eastus2,4.57,USD
+2026-06-24,rg-app-dev,Container Apps,eastus2,2.18,USD
+2026-06-24,rg-data-dev,Storage,eastus2,0.71,USD
+2026-06-24,rg-app-dev,Application Insights,eastus2,0.86,USD
+2026-06-25,rg-data-dev,Azure SQL,eastus2,4.14,USD
+2026-06-25,rg-app-dev,Container Apps,eastus2,2.23,USD
+2026-06-25,rg-data-dev,Storage,eastus2,0.69,USD
+2026-06-25,rg-app-dev,Application Insights,eastus2,0.83,USD
+2026-06-26,rg-data-dev,Azure SQL,eastus2,4.26,USD
+2026-06-26,rg-app-dev,Container Apps,eastus2,2.21,USD
+2026-06-26,rg-data-dev,Storage,eastus2,0.65,USD
+2026-06-26,rg-app-dev,Application Insights,eastus2,0.83,USD
+2026-06-27,rg-data-dev,Azure SQL,eastus2,3.13,USD
+2026-06-27,rg-app-dev,Container Apps,eastus2,1.64,USD
+2026-06-27,rg-data-dev,Storage,eastus2,0.51,USD
+2026-06-27,rg-app-dev,Application Insights,eastus2,0.59,USD
+2026-06-28,rg-data-dev,Azure SQL,eastus2,3.15,USD
+2026-06-28,rg-app-dev,Container Apps,eastus2,1.52,USD
+2026-06-28,rg-data-dev,Storage,eastus2,0.51,USD
+2026-06-28,rg-app-dev,Application Insights,eastus2,0.62,USD
+2026-06-29,rg-data-dev,Azure SQL,eastus2,4.29,USD
+2026-06-29,rg-app-dev,Container Apps,eastus2,2.22,USD
+2026-06-29,rg-data-dev,Storage,eastus2,0.69,USD
+2026-06-29,rg-app-dev,Application Insights,eastus2,0.81,USD
+2026-06-30,rg-data-dev,Azure SQL,eastus2,4.50,USD
+2026-06-30,rg-app-dev,Container Apps,eastus2,2.20,USD
+2026-06-30,rg-data-dev,Storage,eastus2,0.70,USD
+2026-06-30,rg-app-dev,Application Insights,eastus2,0.84,USD
+2026-07-01,rg-data-dev,Azure SQL,eastus2,4.18,USD
+2026-07-01,rg-app-dev,Container Apps,eastus2,2.16,USD
+2026-07-01,rg-data-dev,Storage,eastus2,0.65,USD
+2026-07-01,rg-app-dev,Application Insights,eastus2,0.87,USD
+2026-07-02,rg-data-dev,Azure SQL,eastus2,4.57,USD
+2026-07-02,rg-app-dev,Container Apps,eastus2,2.27,USD
+2026-07-02,rg-data-dev,Storage,eastus2,0.67,USD
+2026-07-02,rg-app-dev,Application Insights,eastus2,0.80,USD
+2026-07-03,rg-data-dev,Azure SQL,eastus2,4.57,USD
+2026-07-03,rg-app-dev,Container Apps,eastus2,2.30,USD
+2026-07-03,rg-data-dev,Storage,eastus2,0.65,USD
+2026-07-03,rg-app-dev,Application Insights,eastus2,0.84,USD
+2026-07-04,rg-data-dev,Azure SQL,eastus2,3.04,USD
+2026-07-04,rg-app-dev,Container Apps,eastus2,1.63,USD
+2026-07-04,rg-data-dev,Storage,eastus2,0.50,USD
+2026-07-04,rg-app-dev,Application Insights,eastus2,0.58,USD
+2026-07-05,rg-data-dev,Azure SQL,eastus2,3.17,USD
+2026-07-05,rg-app-dev,Container Apps,eastus2,1.60,USD
+2026-07-05,rg-data-dev,Storage,eastus2,0.48,USD
+2026-07-05,rg-app-dev,Application Insights,eastus2,0.63,USD
+2026-07-06,rg-data-dev,Azure SQL,eastus2,4.39,USD
+2026-07-06,rg-app-dev,Container Apps,eastus2,2.15,USD
+2026-07-06,rg-data-dev,Storage,eastus2,0.69,USD
+2026-07-06,rg-app-dev,Application Insights,eastus2,0.86,USD
+2026-07-07,rg-data-dev,Azure SQL,eastus2,4.30,USD
+2026-07-07,rg-app-dev,Container Apps,eastus2,2.17,USD
+2026-07-07,rg-data-dev,Storage,eastus2,0.72,USD
+2026-07-07,rg-app-dev,Application Insights,eastus2,0.86,USD
+2026-07-08,rg-data-dev,Azure SQL,eastus2,4.41,USD
+2026-07-08,rg-app-dev,Container Apps,eastus2,2.22,USD
+2026-07-08,rg-data-dev,Storage,eastus2,0.66,USD
+2026-07-08,rg-app-dev,Application Insights,eastus2,0.82,USD
+2026-07-09,rg-data-dev,Azure SQL,eastus2,4.37,USD
+2026-07-09,rg-app-dev,Container Apps,eastus2,2.24,USD
+2026-07-09,rg-data-dev,Storage,eastus2,0.67,USD
+2026-07-09,rg-app-dev,Application Insights,eastus2,0.82,USD
+2026-07-10,rg-data-dev,Azure SQL,eastus2,4.26,USD
+2026-07-10,rg-app-dev,Container Apps,eastus2,2.26,USD
+2026-07-10,rg-data-dev,Storage,eastus2,0.67,USD
+2026-07-10,rg-app-dev,Application Insights,eastus2,0.88,USD
+2026-07-11,rg-data-dev,Azure SQL,eastus2,3.33,USD
+2026-07-11,rg-app-dev,Container Apps,eastus2,1.54,USD
+2026-07-11,rg-data-dev,Storage,eastus2,0.48,USD
+2026-07-11,rg-app-dev,Application Insights,eastus2,0.62,USD
+2026-07-12,rg-data-dev,Azure SQL,eastus2,3.12,USD
+2026-07-12,rg-app-dev,Container Apps,eastus2,1.55,USD
+2026-07-12,rg-data-dev,Storage,eastus2,0.52,USD
+2026-07-12,rg-app-dev,Application Insights,eastus2,0.62,USD
+2026-07-13,rg-data-dev,Azure SQL,eastus2,4.46,USD
+2026-07-13,rg-app-dev,Container Apps,eastus2,2.30,USD
+2026-07-13,rg-data-dev,Storage,eastus2,0.71,USD
+2026-07-13,rg-app-dev,Application Insights,eastus2,0.83,USD
+2026-07-14,rg-data-dev,Azure SQL,eastus2,4.30,USD
+2026-07-14,rg-app-dev,Container Apps,eastus2,2.22,USD
+2026-07-14,rg-data-dev,Storage,eastus2,0.69,USD
+2026-07-14,rg-app-dev,Application Insights,eastus2,0.85,USD
+2026-07-15,rg-data-dev,Azure SQL,eastus2,4.59,USD
+2026-07-15,rg-app-dev,Container Apps,eastus2,2.28,USD
+2026-07-15,rg-data-dev,Storage,eastus2,0.73,USD
+2026-07-15,rg-app-dev,Application Insights,eastus2,0.82,USD
+2026-07-16,rg-data-dev,Azure SQL,eastus2,4.45,USD
+2026-07-16,rg-app-dev,Container Apps,eastus2,2.21,USD
+2026-07-16,rg-data-dev,Storage,eastus2,0.72,USD
+2026-07-16,rg-app-dev,Application Insights,eastus2,0.83,USD
+2026-07-17,rg-data-dev,Azure SQL,eastus2,22.36,USD
+2026-07-17,rg-app-dev,Container Apps,eastus2,2.24,USD
+2026-07-17,rg-data-dev,Storage,eastus2,0.69,USD
+2026-07-17,rg-app-dev,Application Insights,eastus2,0.84,USD
+2026-07-18,rg-data-dev,Azure SQL,eastus2,3.16,USD
+2026-07-18,rg-app-dev,Container Apps,eastus2,1.69,USD
+2026-07-18,rg-data-dev,Storage,eastus2,0.50,USD
+2026-07-18,rg-app-dev,Application Insights,eastus2,0.64,USD
+2026-07-19,rg-data-dev,Azure SQL,eastus2,3.26,USD
+2026-07-19,rg-app-dev,Container Apps,eastus2,1.55,USD
+2026-07-19,rg-data-dev,Storage,eastus2,0.53,USD
+2026-07-19,rg-app-dev,Application Insights,eastus2,0.64,USD
+2026-07-20,rg-data-dev,Azure SQL,eastus2,4.73,USD
+2026-07-20,rg-app-dev,Container Apps,eastus2,2.35,USD
+2026-07-20,rg-data-dev,Storage,eastus2,0.72,USD
+2026-07-20,rg-app-dev,Application Insights,eastus2,0.83,USD
+2026-07-21,rg-data-dev,Azure SQL,eastus2,4.51,USD
+2026-07-21,rg-app-dev,Container Apps,eastus2,2.20,USD
+2026-07-21,rg-data-dev,Storage,eastus2,0.69,USD
+2026-07-21,rg-app-dev,Application Insights,eastus2,0.82,USD
+2026-07-22,rg-data-dev,Azure SQL,eastus2,4.47,USD
+2026-07-22,rg-app-dev,Container Apps,eastus2,2.37,USD
+2026-07-22,rg-data-dev,Storage,eastus2,0.68,USD
+2026-07-22,rg-app-dev,Application Insights,eastus2,0.89,USD
+2026-07-23,rg-data-dev,Azure SQL,eastus2,4.51,USD
+2026-07-23,rg-app-dev,Container Apps,eastus2,2.25,USD
+2026-07-23,rg-data-dev,Storage,eastus2,0.73,USD
+2026-07-23,rg-app-dev,Application Insights,eastus2,0.91,USD
+2026-07-24,rg-data-dev,Azure SQL,eastus2,4.57,USD
+2026-07-24,rg-app-dev,Container Apps,eastus2,2.32,USD
+2026-07-24,rg-data-dev,Storage,eastus2,0.68,USD
+2026-07-24,rg-app-dev,Application Insights,eastus2,0.85,USD
+2026-07-25,rg-data-dev,Azure SQL,eastus2,3.43,USD
+2026-07-25,rg-app-dev,Container Apps,eastus2,1.65,USD
+2026-07-25,rg-data-dev,Storage,eastus2,0.51,USD
+2026-07-25,rg-app-dev,Application Insights,eastus2,0.64,USD
+2026-07-26,rg-data-dev,Azure SQL,eastus2,3.13,USD
+2026-07-26,rg-app-dev,Container Apps,eastus2,1.65,USD
+2026-07-26,rg-data-dev,Storage,eastus2,0.51,USD
+2026-07-26,rg-app-dev,Application Insights,eastus2,0.65,USD
+2026-07-27,rg-data-dev,Azure SQL,eastus2,4.40,USD
+2026-07-27,rg-app-dev,Container Apps,eastus2,2.38,USD
+2026-07-27,rg-data-dev,Storage,eastus2,0.68,USD
+2026-07-27,rg-app-dev,Application Insights,eastus2,0.84,USD
+2026-07-28,rg-data-dev,Azure SQL,eastus2,4.61,USD
+2026-07-28,rg-app-dev,Container Apps,eastus2,2.32,USD
+2026-07-28,rg-data-dev,Storage,eastus2,0.69,USD
+2026-07-28,rg-app-dev,Application Insights,eastus2,0.84,USD
+2026-07-29,rg-data-dev,Azure SQL,eastus2,4.75,USD
+2026-07-29,rg-app-dev,Container Apps,eastus2,2.23,USD
+2026-07-29,rg-data-dev,Storage,eastus2,0.71,USD
+2026-07-29,rg-app-dev,Application Insights,eastus2,0.88,USD
+2026-07-30,rg-data-dev,Azure SQL,eastus2,4.54,USD
+2026-07-30,rg-app-dev,Container Apps,eastus2,2.31,USD
+2026-07-30,rg-data-dev,Storage,eastus2,0.71,USD
+2026-07-30,rg-app-dev,Application Insights,eastus2,0.91,USD
+2026-07-31,rg-data-dev,Azure SQL,eastus2,4.45,USD
+2026-07-31,rg-app-dev,Container Apps,eastus2,2.34,USD
+2026-07-31,rg-data-dev,Storage,eastus2,0.69,USD
+2026-07-31,rg-app-dev,Application Insights,eastus2,0.86,USD
+2026-08-01,rg-data-dev,Azure SQL,eastus2,3.36,USD
+2026-08-01,rg-app-dev,Container Apps,eastus2,1.62,USD
+2026-08-01,rg-data-dev,Storage,eastus2,0.50,USD
+2026-08-01,rg-app-dev,Application Insights,eastus2,0.65,USD
+2026-08-02,rg-data-dev,Azure SQL,eastus2,3.17,USD
+2026-08-02,rg-app-dev,Container Apps,eastus2,1.65,USD
+2026-08-02,rg-data-dev,Storage,eastus2,0.54,USD
+2026-08-02,rg-app-dev,Application Insights,eastus2,0.66,USD
+2026-08-03,rg-data-dev,Azure SQL,eastus2,4.41,USD
+2026-08-03,rg-app-dev,Container Apps,eastus2,2.24,USD
+2026-08-03,rg-data-dev,Storage,eastus2,0.70,USD
+2026-08-03,rg-app-dev,Application Insights,eastus2,0.91,USD
+2026-08-04,rg-data-dev,Azure SQL,eastus2,4.79,USD
+2026-08-04,rg-app-dev,Container Apps,eastus2,2.39,USD
+2026-08-04,rg-data-dev,Storage,eastus2,0.70,USD
+2026-08-04,rg-app-dev,Application Insights,eastus2,0.85,USD
+2026-08-05,rg-data-dev,Azure SQL,eastus2,4.77,USD
+2026-08-05,rg-app-dev,Container Apps,eastus2,2.35,USD
+2026-08-05,rg-data-dev,Storage,eastus2,0.72,USD
+2026-08-05,rg-app-dev,Application Insights,eastus2,0.92,USD
+2026-08-06,rg-data-dev,Azure SQL,eastus2,4.69,USD
+2026-08-06,rg-app-dev,Container Apps,eastus2,2.20,USD
+2026-08-06,rg-data-dev,Storage,eastus2,0.74,USD
+2026-08-06,rg-app-dev,Application Insights,eastus2,0.86,USD
+2026-08-07,rg-data-dev,Azure SQL,eastus2,4.70,USD
+2026-08-07,rg-app-dev,Container Apps,eastus2,2.42,USD
+2026-08-07,rg-data-dev,Storage,eastus2,0.69,USD
+2026-08-07,rg-app-dev,Application Insights,eastus2,0.85,USD
+2026-08-08,rg-data-dev,Azure SQL,eastus2,3.21,USD
+2026-08-08,rg-app-dev,Container Apps,eastus2,1.68,USD
+2026-08-08,rg-data-dev,Storage,eastus2,0.50,USD
+2026-08-08,rg-app-dev,Application Insights,eastus2,0.64,USD
+2026-08-09,rg-data-dev,Azure SQL,eastus2,3.41,USD
+2026-08-09,rg-app-dev,Container Apps,eastus2,1.62,USD
+2026-08-09,rg-data-dev,Storage,eastus2,0.52,USD
+2026-08-09,rg-app-dev,Application Insights,eastus2,0.62,USD
+2026-08-10,rg-data-dev,Azure SQL,eastus2,4.64,USD
+2026-08-10,rg-app-dev,Container Apps,eastus2,2.42,USD
+2026-08-10,rg-data-dev,Storage,eastus2,0.74,USD
+2026-08-10,rg-app-dev,Application Insights,eastus2,0.85,USD
+2026-08-11,rg-data-dev,Azure SQL,eastus2,4.62,USD
+2026-08-11,rg-app-dev,Container Apps,eastus2,2.27,USD
+2026-08-11,rg-data-dev,Storage,eastus2,0.68,USD
+2026-08-11,rg-app-dev,Application Insights,eastus2,0.91,USD
+2026-08-12,rg-data-dev,Azure SQL,eastus2,4.72,USD
+2026-08-12,rg-app-dev,Container Apps,eastus2,2.27,USD
+2026-08-12,rg-data-dev,Storage,eastus2,0.74,USD
+2026-08-12,rg-app-dev,Application Insights,eastus2,0.89,USD
+2026-08-13,rg-data-dev,Azure SQL,eastus2,4.63,USD
+2026-08-13,rg-app-dev,Container Apps,eastus2,2.22,USD
+2026-08-13,rg-data-dev,Storage,eastus2,0.69,USD
+2026-08-13,rg-app-dev,Application Insights,eastus2,0.92,USD
+2026-08-14,rg-data-dev,Azure SQL,eastus2,4.86,USD
+2026-08-14,rg-app-dev,Container Apps,eastus2,2.35,USD
+2026-08-14,rg-data-dev,Storage,eastus2,0.75,USD
+2026-08-14,rg-app-dev,Application Insights,eastus2,0.90,USD
+2026-08-15,rg-data-dev,Azure SQL,eastus2,3.25,USD
+2026-08-15,rg-app-dev,Container Apps,eastus2,13.62,USD
+2026-08-15,rg-data-dev,Storage,eastus2,0.51,USD
+2026-08-15,rg-app-dev,Application Insights,eastus2,0.67,USD
+2026-08-16,rg-data-dev,Azure SQL,eastus2,3.47,USD
+2026-08-16,rg-app-dev,Container Apps,eastus2,1.75,USD
+2026-08-16,rg-data-dev,Storage,eastus2,0.54,USD
+2026-08-16,rg-app-dev,Application Insights,eastus2,0.62,USD
+2026-08-17,rg-data-dev,Azure SQL,eastus2,4.57,USD
+2026-08-17,rg-app-dev,Container Apps,eastus2,2.25,USD
+2026-08-17,rg-data-dev,Storage,eastus2,0.75,USD
+2026-08-17,rg-app-dev,Application Insights,eastus2,0.93,USD
+2026-08-18,rg-data-dev,Azure SQL,eastus2,4.65,USD
+2026-08-18,rg-app-dev,Container Apps,eastus2,2.38,USD
+2026-08-18,rg-data-dev,Storage,eastus2,0.70,USD
+2026-08-18,rg-app-dev,Application Insights,eastus2,0.93,USD
+2026-08-19,rg-data-dev,Azure SQL,eastus2,4.88,USD
+2026-08-19,rg-app-dev,Container Apps,eastus2,2.46,USD
+2026-08-19,rg-data-dev,Storage,eastus2,0.75,USD
+2026-08-19,rg-app-dev,Application Insights,eastus2,0.93,USD
+2026-08-20,rg-data-dev,Azure SQL,eastus2,4.49,USD
+2026-08-20,rg-app-dev,Container Apps,eastus2,2.41,USD
+2026-08-20,rg-data-dev,Storage,eastus2,0.72,USD
+2026-08-20,rg-app-dev,Application Insights,eastus2,0.94,USD
+2026-08-21,rg-data-dev,Azure SQL,eastus2,4.86,USD
+2026-08-21,rg-app-dev,Container Apps,eastus2,2.44,USD
+2026-08-21,rg-data-dev,Storage,eastus2,0.75,USD
+2026-08-21,rg-app-dev,Application Insights,eastus2,0.88,USD
+2026-08-22,rg-data-dev,Azure SQL,eastus2,3.50,USD
+2026-08-22,rg-app-dev,Container Apps,eastus2,1.63,USD
+2026-08-22,rg-data-dev,Storage,eastus2,0.55,USD
+2026-08-22,rg-app-dev,Application Insights,eastus2,0.67,USD
+2026-08-23,rg-data-dev,Azure SQL,eastus2,3.31,USD
+2026-08-23,rg-app-dev,Container Apps,eastus2,1.76,USD
+2026-08-23,rg-data-dev,Storage,eastus2,0.52,USD
+2026-08-23,rg-app-dev,Application Insights,eastus2,0.64,USD
+2026-08-24,rg-data-dev,Azure SQL,eastus2,4.88,USD
+2026-08-24,rg-app-dev,Container Apps,eastus2,2.30,USD
+2026-08-24,rg-data-dev,Storage,eastus2,0.70,USD
+2026-08-24,rg-app-dev,Application Insights,eastus2,0.87,USD
+2026-08-25,rg-data-dev,Azure SQL,eastus2,4.66,USD
+2026-08-25,rg-app-dev,Container Apps,eastus2,2.46,USD
+2026-08-25,rg-data-dev,Storage,eastus2,0.77,USD
+2026-08-25,rg-app-dev,Application Insights,eastus2,0.88,USD
+2026-08-26,rg-data-dev,Azure SQL,eastus2,4.82,USD
+2026-08-26,rg-app-dev,Container Apps,eastus2,2.35,USD
+2026-08-26,rg-data-dev,Storage,eastus2,0.77,USD
+2026-08-26,rg-app-dev,Application Insights,eastus2,0.91,USD
+2026-08-27,rg-data-dev,Azure SQL,eastus2,4.96,USD
+2026-08-27,rg-app-dev,Container Apps,eastus2,2.29,USD
+2026-08-27,rg-data-dev,Storage,eastus2,0.77,USD
+2026-08-27,rg-app-dev,Application Insights,eastus2,0.88,USD
+2026-08-28,rg-data-dev,Azure SQL,eastus2,4.98,USD
+2026-08-28,rg-app-dev,Container Apps,eastus2,2.32,USD
+2026-08-28,rg-data-dev,Storage,eastus2,0.71,USD
+2026-08-28,rg-app-dev,Application Insights,eastus2,0.90,USD

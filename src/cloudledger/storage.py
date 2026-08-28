@@ -2,9 +2,11 @@ import hashlib
 import json
 import sqlite3
 from collections.abc import Iterable
+from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
+from cloudledger.insights import DailyServiceCost
 from cloudledger.models import CostRecord
 
 
@@ -116,3 +118,23 @@ def database_currencies(connection: sqlite3.Connection) -> set[str]:
         "SELECT DISTINCT currency FROM cost_records ORDER BY currency"
     )
     return {currency for (currency,) in rows}
+
+
+def daily_service_costs(connection: sqlite3.Connection) -> list[DailyServiceCost]:
+    rows = connection.execute(
+        """
+        SELECT usage_date, service_name, SUM(cost_micros), currency
+        FROM cost_records
+        GROUP BY usage_date, service_name, currency
+        ORDER BY usage_date, service_name
+        """
+    )
+    return [
+        DailyServiceCost(
+            usage_date=date.fromisoformat(usage_date),
+            service_name=service_name,
+            cost=Decimal(total_micros) / MICROS_PER_UNIT,
+            currency=currency,
+        )
+        for usage_date, service_name, total_micros, currency in rows
+    ]

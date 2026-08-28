@@ -4,9 +4,11 @@ from pathlib import Path
 
 from cloudledger.analytics import budget_variance, costs_by_service, total_cost
 from cloudledger.ingest import load_cost_records
+from cloudledger.insights import detect_cost_anomalies, forecast_latest_month
 from cloudledger.storage import (
     connect_database,
     costs_by_service as database_costs_by_service,
+    daily_service_costs,
     database_currencies,
     import_records,
     initialize_database,
@@ -31,6 +33,12 @@ def build_parser() -> argparse.ArgumentParser:
         "database-summary", help="Summarize costs stored in SQLite."
     )
     summary.add_argument("--database", type=Path, required=True)
+
+    insights = subparsers.add_parser(
+        "insights", help="Forecast spend and detect cost anomalies."
+    )
+    insights.add_argument("--database", type=Path, required=True)
+    insights.add_argument("--budget", type=Decimal, required=True)
     return parser
 
 
@@ -74,6 +82,38 @@ def main() -> None:
             print("By service:")
             for service, cost in database_costs_by_service(connection).items():
                 print(f"  {service}: {cost:.2f}")
+        finally:
+            connection.close()
+
+    elif args.command == "insights":
+        connection = connect_database(args.database)
+        try:
+            initialize_database(connection)
+            currencies = database_currencies(connection)
+            if len(currencies) != 1:
+                raise SystemExit("Insights require exactly one database currency")
+            currency = next(iter(currencies))
+            daily_costs = daily_service_costs(connection)
+            forecast = forecast_latest_month(daily_costs, args.budget)
+            anomalies = detect_cost_anomalies(daily_costs)
+
+            print("CloudLedger FinOps insights")
+            print(f"Month: {forecast.month}")
+            print(
+                f"Spend through {forecast.through_date}: "
+                f"{forecast.actual_cost:.2f} {currency}"
+            )
+            print(f"Projected month-end: {forecast.projected_cost:.2f} {currency}")
+            print(f"Budget: {forecast.budget:.2f} {currency}")
+            print(f"Projected utilization: {forecast.projected_utilization:.1f}%")
+            status = "OVER BUDGET" if forecast.projected_cost > forecast.budget else "ON TRACK"
+            print(f"Status: {status}")
+            print("Anomalies:")
+            for anomaly in anomalies:
+                print(
+                    f"  {anomaly.usage_date} | {anomaly.service_name} | "
+                    f"{anomaly.cost:.2f} {currency} | score {anomaly.score:.1f}"
+                )
         finally:
             connection.close()
 
