@@ -1,5 +1,7 @@
 # CloudLedger — Azure FinOps Data Platform
 
+[![CI](https://github.com/sapiniwrld-dot/cloudledger-azure-finops/actions/workflows/ci.yml/badge.svg)](https://github.com/sapiniwrld-dot/cloudledger-azure-finops/actions/workflows/ci.yml)
+
 CloudLedger is a portfolio project for validating, analyzing, and reporting Azure cost and usage data without committing private billing exports. The first release uses synthetic data and produces service-level totals, monthly spend, and budget variance from a repeatable command-line workflow.
 
 ## Current capabilities
@@ -15,6 +17,28 @@ CloudLedger is a portfolio project for validating, analyzing, and reporting Azur
 - Imports read-only Azure Cost Management Query API responses
 - Uses synthetic data safe for a public repository
 - Includes automated tests
+
+## Architecture
+
+    Azure Cost Management Query API        Synthetic CSV data
+                    |                              |
+                    v                              v
+           Private JSON adapter  --->  Validation and normalization
+                                              |
+                                              v
+                                  Duplicate-safe SQLite storage
+                                              |
+                           +------------------+------------------+
+                           |                                     |
+                           v                                     v
+                  Budget forecasting                    Anomaly detection
+                           |                                     |
+                           +------------------+------------------+
+                                              |
+                                              v
+                                      CLI FinOps reports
+
+GitHub Actions installs the project and runs the complete test suite on every push and pull request.
 
 ## Run locally
 
