@@ -3,6 +3,7 @@ from decimal import Decimal
 from pathlib import Path
 
 from cloudledger.analytics import budget_variance, costs_by_service, total_cost
+from cloudledger.azure import load_azure_query_records
 from cloudledger.ingest import load_cost_records
 from cloudledger.insights import detect_cost_anomalies, forecast_latest_month
 from cloudledger.storage import (
@@ -39,6 +40,12 @@ def build_parser() -> argparse.ArgumentParser:
     )
     insights.add_argument("--database", type=Path, required=True)
     insights.add_argument("--budget", type=Decimal, required=True)
+
+    azure_import = subparsers.add_parser(
+        "azure-import", help="Import an Azure Cost Management query response."
+    )
+    azure_import.add_argument("json_file", type=Path)
+    azure_import.add_argument("--database", type=Path, required=True)
     return parser
 
 
@@ -114,6 +121,18 @@ def main() -> None:
                     f"  {anomaly.usage_date} | {anomaly.service_name} | "
                     f"{anomaly.cost:.2f} {currency} | score {anomaly.score:.1f}"
                 )
+        finally:
+            connection.close()
+
+    elif args.command == "azure-import":
+        records = load_azure_query_records(args.json_file)
+        connection = connect_database(args.database)
+        try:
+            initialize_database(connection)
+            imported = import_records(connection, records)
+            print(f"Imported Azure records: {imported}")
+            print(f"Skipped duplicates: {len(records) - imported}")
+            print(f"Database records: {record_count(connection)}")
         finally:
             connection.close()
 

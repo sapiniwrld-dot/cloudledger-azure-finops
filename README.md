@@ -12,6 +12,7 @@ CloudLedger is a portfolio project for validating, analyzing, and reporting Azur
 - Forecasts month-end spending and budget utilization
 - Detects service-level cost anomalies using median absolute deviation
 - Generates a deterministic 90-day dataset with known cost spikes
+- Imports read-only Azure Cost Management Query API responses
 - Uses synthetic data safe for a public repository
 - Includes automated tests
 
@@ -27,3 +28,13 @@ CloudLedger is a portfolio project for validating, analyzing, and reporting Azur
     pytest -q
 
 Real Azure exports will be stored under `exports/private/`, which Git ignores.
+
+## Import Azure Cost Management data
+
+Save a subscription-scoped Azure Cost Management Query API response under the ignored `exports/private/` directory, then import it into a local database:
+
+    cloudledger azure-import exports/private/azure-cost-query.json --database azure-costs.db
+
+The importer discovers columns by name, validates Azure's response schema, converts `YYYYMMDD` usage dates, preserves decimal costs, and prevents duplicate imports. The repository includes only a synthetic API fixture for automated tests; real subscription IDs and billing values are never committed.
+
+API reference: [Azure Cost Management Query - Usage](https://learn.microsoft.com/en-us/rest/api/cost-management/query/usage?view=rest-cost-management-2026-06-01)

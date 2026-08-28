@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "columns": [
+      {"name": "ResourceGroup", "type": "String"},
+      {"name": "PreTaxCost", "type": "Number"},
+      {"name": "Currency", "type": "String"},
+      {"name": "UsageDate", "type": "Number"},
+      {"name": "ServiceName", "type": "String"},
+      {"name": "ResourceLocation", "type": "String"}
+    ],
+    "rows": [
+      ["rg-demo", 3.25, "USD", 20260801, "Storage", "eastus2"],
+      ["rg-demo", 7.50, "USD", 20260801, "Container Apps", "eastus2"]
+    ]
+  }
+}
