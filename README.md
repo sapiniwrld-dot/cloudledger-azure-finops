@@ -7,6 +7,8 @@ CloudLedger is a portfolio project for validating, analyzing, and reporting Azur
 - Validates required cost-export fields and numeric costs
 - Aggregates spend by Azure service
 - Calculates total spend and budget variance
+- Stores validated records in an indexed SQLite database
+- Prevents duplicate imports with deterministic record fingerprints
 - Uses synthetic data safe for a public repository
 - Includes automated tests
 
@@ -14,7 +16,8 @@ CloudLedger is a portfolio project for validating, analyzing, and reporting Azur
 
     python -m pip install -e '.[dev]'
     cloudledger analyze data/sample_costs.csv --budget 100
+    cloudledger import data/sample_costs.csv --database cloudledger.db
+    cloudledger database-summary --database cloudledger.db
     pytest -q
 
 Real Azure exports will be stored under `exports/private/`, which Git ignores.
-

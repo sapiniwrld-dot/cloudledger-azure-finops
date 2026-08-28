@@ -9,3 +9,6 @@ exports/private/
 reports/*.csv
 
 *.egg-info/
+*.db
+*.db-shm
+*.db-wal
